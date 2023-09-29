@@ -223,8 +223,8 @@ module.exports = {
             ('Zimbabwe');
 
             insert into cities (name, rating, country_id)
-            values ('Kabul', 3, 1),
-            ('Tirana', 4, 2),
+            values ('Kabul', 5, 1),
+            ('Tirana', 1, 2),
             ('Algiers', 3, 3);
 
         `).then(() => {
